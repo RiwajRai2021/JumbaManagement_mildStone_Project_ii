@@ -8,8 +8,7 @@ public class Participant {
 	private String phone; 
 	private int batchId;
 	
-	
-	
+		
 	public String getPhone() {
 		return phone;
 	}
@@ -54,7 +53,7 @@ public class Participant {
 		this.email = email;
 	}
 
-	public int getBatchId() {
+	public int getbatchId() {
 		return batchId;
 	}
 
@@ -62,11 +61,6 @@ public class Participant {
 		this.batchId = batchId;
 	}
 
-	@Override
-	public String toString() {
-		return "Participant [id=" + id + ", name=" + name + ", email=" + email + ", phone =" + phone+ ", batchId=" + batchId + "]";
-	}
-	
 	
 
 
