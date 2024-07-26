@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>JumbaClassManagement_Project_End_II</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddParticipantServlet</display-name>
+    <servlet-name>AddParticipantServlet</servlet-name>
+    <servlet-class>com.example.jumbaClass.controller.AddParticipantServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddParticipantServlet</servlet-name>
+    <url-pattern>/AddParticipantServlet</url-pattern>
+    <url-pattern>/AddParticipant</url-pattern>
+  </servlet-mapping>
+</web-app>
